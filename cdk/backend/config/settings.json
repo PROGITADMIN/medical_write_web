@@ -1,0 +1,49 @@
+{
+  "dev": {
+    "region": "ap-south-1",
+    "account": "376129857393",
+    "stage": "dev",
+    "prefix": "med-write-dev-",
+    "secret_key": "MED_WRITE_DEV_SECRET",
+    "shared_modules_layer_node_arn": "arn:aws:lambda:ap-south-1:376129857393:layer:SharedModulesLayerNodev22B5753F64:2",
+    "serverless": "true",
+    "rate_limit": "50",
+    "burst_limit": "100"
+  },
+
+  "test": {
+    "region": "ap-south-1",
+    "account": "239974789312",
+    "stage": "test",
+    "prefix": "med-write-portal-test-",
+    "secret_key": "MED_WRITE_PORTAL_TEST_SECRET",
+    "shared_modules_layer_node_arn": "arn:aws:lambda:ap-south-1:239974789312:layer:SharedModulesLayerNodev22B5753F64:1",
+    "serverless": "true",
+    "rate_limit": "100",
+    "burst_limit": "200"
+  },
+
+  "demo": {
+    "region": "ap-south-1",
+    "account": "239974789312",
+    "stage": "demo",
+    "prefix": "med-write-portal-demo-",
+    "secret_key": "MED_WRITE_PORTAL_DEMO_SECRET",
+    "shared_modules_layer_node_arn": "arn:aws:lambda:ap-south-1:239974789312:layer:SharedModulesLayerNodev22B5753F64:1",
+    "serverless": "true",
+    "rate_limit": "100",
+    "burst_limit": "200"
+  },
+
+  "prod": {
+    "region": "ap-south-1",
+    "account": "463470960237",
+    "stage": "prod",
+    "prefix": "med-write-portal-main-",
+    "secret_key": "MED_WRITE_PORTAL_SECRET",
+    "shared_modules_layer_node_arn": "arn:aws:lambda:ap-south-1:463470960237:layer:SharedModulesLayerNodev22B5753F64:1",
+    "serverless": "true",
+    "rate_limit": "500",
+    "burst_limit": "1000"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "region": "ap-south-1",
+    "account": "376129857393",
+    "stage": "dev",
+    "prefix": "med-write-dev-",
+    "rootDomain": "med-write-dev.cargoclave.com",
+    "certificateArn": "arn:aws:acm:us-east-1:376129857393:certificate/f98c3aca-e4b3-49c3-808a-181c30566d81"
+  },
+  "test": {
+    "region": "ap-south-1",
+    "account": "239974789312",
+    "stage": "test",
+    "prefix": "med-write-test-",
+    "rootDomain": "med-write-test.cargoclave.com",
+    "certificateArn": "arn:aws:acm:us-east-1:239974789312:certificate/fbf71ce1-57be-4edc-bbca-11eb8ed4c1c1"
+  },
+ 
+  "prod": {
+    "region": "ap-south-1",
+    "account": "463470960237",
+    "stage": "prod",
+    "prefix": "med-write-main-",
+    "rootDomain": "med-write.cargoclave.com",
+    "certificateArn": "arn:aws:acm:us-east-1:463470960237:certificate/35cb53e9-0373-4e6d-8233-21995db64f68"
+  }
+}

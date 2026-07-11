@@ -1,0 +1,15 @@
+{
+  "bucketDetails": [
+    {
+      "bucketName": "react",
+      "isCloudfrontRequired": true,
+      "hasDefaultRoot": true,
+      "allowedOrigins": ["*"],
+      "defaultRootObject": "index.html"
+    }
+  ],
+  "versioned": true,
+  "removalPolicy": "RETAIN",
+  "autoDeleteObjects": false,
+  "publiceReadAccess": false
+}
