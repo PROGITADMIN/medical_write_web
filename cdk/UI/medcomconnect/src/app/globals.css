@@ -1,0 +1,562 @@
+@import "tailwindcss";
+
+:root {
+  /* ── Core palette (Vibrant Green and White) ── */
+  --warm-bg:      #FFFFFF; /* Pure white background */
+  --warm-bg-2:    #E6F4EA; /* Noticeably deeper soft green for backgrounds */
+  --warm-card:    #D1E8DB; /* Deeper pale green for card backgrounds */
+  --soft-green:   #F6FBF8; /* Light soft green */
+  --cream:        #FFFFFF;
+  --cream-dark:   #A8CBB8; /* Deeper green-gray for borders */
+  --brown-dark:   #033624; /* Very deep forest green for headings/buttons */
+  --brown-mid:    #0B6E4F; /* Deeper primary green for interactive elements */
+  --brown-text:   #07573D; /* Deeper rich green for secondary text/links */
+  --text-dark:    #0F172A; /* Slate 900 for high-contrast body text */
+  --text-muted:   #334155; /* Slate 700 for paragraphs (slightly darker for contrast) */
+  --text-light:   #64748B;
+
+  /* ── Brand accents (kept for data/badge coloring) ── */
+  --navy:         #1B2D6B;
+  --navy-dark:    #0f1c3f;
+  --teal:         #00B4C5;
+  --teal-light:   #E0F9FB;
+  --coral:        #F26A4B;
+  --coral-light:  #FEF0EC;
+  --lilac:        #8B75D7;
+  --lilac-light:  #F0ECFF;
+  --mint:         #00C896;
+  --mint-light:   #E0FFF6;
+  --gold:         #F5A623;
+  --gold-light:   #FFF5E0;
+
+  /* ── Grays ── */
+  --gray-50:      #F8FAFC;
+  --gray-100:     #F1F5F9;
+  --gray-200:     #E2E8F0;
+  --gray-400:     #94A3B8;
+  --gray-500:     #64748B;
+  --gray-600:     #475569;
+  --gray-700:     #334155;
+  --gray-800:     #1E293B;
+
+  /* ── Background / Foreground ── */
+  --background:   var(--warm-bg);
+  --foreground:   var(--text-dark);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans:    'Inter', system-ui, sans-serif;
+  --font-display: 'DM Serif Display', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  background: var(--warm-bg);
+  color: var(--text-dark);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+/* ── Typography utilities ── */
+.font-display { font-family: 'DM Serif Display', Georgia, serif; }
+.font-body    { font-family: 'Inter', system-ui, sans-serif; }
+
+/* ── Color helpers ── */
+.text-navy      { color: var(--navy); }
+.text-navy-dark { color: var(--navy-dark); }
+.text-teal      { color: var(--teal); }
+.text-coral     { color: var(--coral); }
+.text-lilac     { color: var(--lilac); }
+.text-mint      { color: var(--mint); }
+.text-gold      { color: var(--gold); }
+.bg-navy        { background-color: var(--navy); }
+.bg-teal        { background-color: var(--teal); }
+.bg-coral       { background-color: var(--coral); }
+.bg-lilac       { background-color: var(--lilac); }
+.bg-pale-blue   { background-color: var(--warm-bg); }
+.bg-cream       { background-color: var(--cream); }
+.bg-teal-light  { background-color: var(--teal-light); }
+.bg-coral-light { background-color: var(--coral-light); }
+.bg-lilac-light { background-color: var(--lilac-light); }
+.bg-mint-light  { background-color: var(--mint-light); }
+.bg-gold-light  { background-color: var(--gold-light); }
+.border-teal    { border-color: var(--teal); }
+.border-coral   { border-color: var(--coral); }
+.border-lilac   { border-color: var(--lilac); }
+/* ── Gradient utilities ── */
+.gradient-hero {
+  background: linear-gradient(135deg, #FFFFFF 0%, #F0FDF4 50%, #DCFCE7 100%);
+}
+.gradient-navy {
+  background: linear-gradient(135deg, #064E3B 0%, #022C22 100%);
+}
+.gradient-teal {
+  background: linear-gradient(135deg, #00B4C5 0%, #00C896 100%);
+}
+.gradient-coral {
+  background: linear-gradient(135deg, #F26A4B 0%, #F5A623 100%);
+}
+.gradient-lilac {
+  background: linear-gradient(135deg, #8B75D7 0%, #00B4C5 100%);
+}
+.gradient-text-teal {
+  background: linear-gradient(135deg, #00B4C5, #8B75D7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient-text-coral {
+  background: linear-gradient(135deg, #F26A4B, #F5A623);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+ 
+/* ── Buttons (Theraflow pill style updated with depth) ── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--brown-dark);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 3rem;
+  border: 2px solid var(--brown-dark);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 12px rgba(6, 78, 59, 0.2);
+}
+.btn-primary:hover {
+  background-color: var(--brown-mid);
+  border-color: var(--brown-mid);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(5, 150, 105, 0.4);
+}
+ 
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: var(--brown-dark);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 3rem;
+  border: 1.5px solid var(--brown-dark);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+.btn-secondary:hover {
+  background-color: var(--brown-dark);
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(6, 78, 59, 0.25);
+}
+
+.btn-teal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--teal);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 3rem;
+  border: 2px solid var(--teal);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+.btn-teal:hover {
+  background-color: #0099AA;
+  border-color: #0099AA;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 180, 197, 0.35);
+}
+
+.btn-coral {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--coral);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 3rem;
+  border: 2px solid var(--coral);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+.btn-coral:hover {
+  background-color: #d45030;
+  border-color: #d45030;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(242, 106, 75, 0.35);
+}
+
+/* ── Section badge (small pill above headings — Theraflow style) ── */
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.95rem; /* Increased size */
+  font-weight: 500;
+  padding: 0.5rem 1.25rem; /* Increased padding */
+  border-radius: 2rem;
+  border: 1px solid #E5E7EB;
+  background: var(--warm-card);
+  color: var(--brown-text);
+  letter-spacing: 0.02em;
+  margin-bottom: 1.25rem;
+}
+
+/* ── Learn more link (Theraflow "Learn more →" style) ── */
+.learn-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--brown-text);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: gap 0.2s ease, color 0.2s ease;
+}
+.learn-more-link:hover {
+  gap: 0.875rem;
+  color: var(--brown-dark);
+}
+
+/* ── Card base ── */
+.card {
+  background: #ffffff;
+  border-radius: 1.25rem;
+  border: 1px solid var(--cream-dark);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.card:hover {
+  box-shadow: 0 12px 40px rgba(6, 78, 59, 0.08);
+  transform: translateY(-4px);
+  border-color: transparent;
+}
+
+.card-colored {
+  border-radius: 1.25rem;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.card-colored:hover {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+/* ── Theraflow image card (rounded top image + content below) ── */
+.tf-card {
+  background: var(--warm-card); /* Light gray to contrast with white background */
+  border-radius: 1.25rem;
+  overflow: hidden;
+  border: 1px solid var(--cream-dark);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.tf-card:hover {
+  box-shadow: 0 20px 40px rgba(6, 78, 59, 0.1);
+  transform: translateY(-6px);
+}
+.tf-card .tf-card-img-placeholder img,
+.tf-card .tf-card-img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.tf-card:hover .tf-card-img-placeholder img,
+.tf-card:hover .tf-card-img {
+  transform: scale(1.05);
+}
+
+/* ── Page Transitions ── */
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.page-transition-enter {
+  animation: fadeInSlideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.tf-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+.tf-card-img-placeholder {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--text-muted);
+  background: var(--cream-dark);
+  overflow: hidden;
+}
+.tf-card-body {
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+/* ── CTA block (Theraflow warm card style) ── */
+.cta-block {
+  background: var(--warm-card);
+  border-radius: 2rem;
+  overflow: hidden;
+  display: grid;
+}
+
+/* ── Section spacing ── */
+.section    { padding: 5rem 0; }
+.section-sm { padding: 3rem 0; }
+.section-lg { padding: 7rem 0; }
+.container-site {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (min-width: 768px) {
+  .container-site {
+    padding: 0 3rem;
+  }
+}
+
+/* ── Pill badge ── */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.3rem 0.875rem;
+  border-radius: 2rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Decorative shapes ── */
+.shape-circle {
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+}
+.shape-half-circle {
+  border-radius: 0 0 999px 999px;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* ── Divider accent ── */
+.divider-accent {
+  width: 3rem;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--brown-dark), var(--brown-mid));
+  display: inline-block;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { display: none; }
+
+/* ── Animations ── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes pulse-ring {
+  0%   { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-float      { animation: float 4s ease-in-out infinite; }
+.animate-fade-in-up { animation: fade-in-up 0.6s ease forwards; }
+
+/* ── Mega dropdown — redesigned warm Theraflow style ── */
+.mega-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+  background: var(--cream);
+  border-radius: 1.25rem;
+  box-shadow:
+    0 4px 6px rgba(45,35,25,0.04),
+    0 24px 64px rgba(45,35,25,0.14),
+    0 0 0 1px rgba(45,35,25,0.06);
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
+  transform-origin: top center;
+  overflow: hidden;
+}
+/* Invisible bridge attached to the nav item to prevent hover loss */
+.nav-item::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 16px;
+}
+.nav-item:hover .mega-dropdown,
+.mega-dropdown:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ── Mobile hamburger ── */
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--brown-dark);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+/* ── Section label ── */
+.section-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ── Stats counter ── */
+.stat-value {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--brown-dark);
+}
+
+/* ── Image overlay cards ── */
+.img-card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.img-card:hover img {
+  transform: scale(1.06);
+}
+.img-card-label {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.35rem 1rem;
+  border-radius: 2rem;
+  letter-spacing: 0.01em;
+}
+
+/* ── Feature icon card ── */
+.feature-icon-wrap {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  flex-shrink: 0;
+}
+
+/* ── News card ── */
+.news-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1.25rem;
+  transition: transform 0.4s ease;
+}
+.news-card:hover img {
+  transform: scale(1.04);
+}
+
+/* ── Footer email input ── */
+.footer-input {
+  background: #ffffff;
+  border: 1.5px solid rgba(255,255,255,0.3);
+  border-radius: 3rem;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.9rem;
+  color: var(--brown-dark);
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+.footer-input::placeholder { color: #9A8E82; }
+.footer-input:focus { border-color: rgba(255,255,255,0.7); }
+
+/* ── Navbar active/hover underline ── */
+.nav-link-tf {
+  position: relative;
+  color: var(--brown-text);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: color 0.2s ease, background 0.2s ease;
+  text-decoration: none;
+}
+.nav-link-tf:hover {
+  color: var(--brown-dark);
+  background: var(--cream-dark);
+}
