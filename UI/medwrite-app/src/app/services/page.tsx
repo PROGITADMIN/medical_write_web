@@ -4,20 +4,26 @@ export default function Services() {
   return (
     <div className="flex flex-col w-full">
       {/* 3.0 — Services (Parent Page) */}
-      <section className="relative w-full py-20 md:py-32 border-b border-black/10 bg-[var(--background)]">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="relative w-full h-screen min-h-[500px] flex flex-col justify-center overflow-hidden border-b border-black/10">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/images/side-view-doctor-with-stethoscope-working-laptop-writing-paper.jpg" 
+            alt="Medical Writing Services" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/60"></div>
+        </div>
+
+        <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <span className="text-[var(--accent)] font-semibold uppercase tracking-widest text-sm mb-4 block">
               • OUR SERVICES
             </span>
-            <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-tight text-[var(--foreground)] leading-[1.1] mb-6">
+            <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-tight text-white leading-[1.1] mb-6 drop-shadow-sm">
               Medical Writing Services for Every Need
             </h1>
-            <p className="text-xl md:text-2xl font-serif text-[var(--foreground)]/90 italic max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl md:text-2xl font-serif text-white/90 italic max-w-3xl mx-auto leading-relaxed drop-shadow-sm">
               From first-in-human regulatory submissions to peer-reviewed publications and patient-facing communications — MedWrite Global Solutions connects you with the expertise and resources to deliver.
-            </p>
-            <p className="text-lg text-[var(--foreground)]/80 leading-relaxed max-w-4xl mx-auto">
-              At MedWrite Global Solutions, our services directory and expert network exist to support organisations and professionals across the full medical communications spectrum. Whether you are a pharmaceutical company seeking specialist regulatory writing support, a medical communications agency looking to grow your team, or a researcher navigating the publication process, we provide the frameworks, networks, and guidance to achieve exceptional outcomes.
             </p>
           </div>
         </div>
