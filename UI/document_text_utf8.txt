@@ -1,0 +1,600 @@
+﻿MEDWRITE GLOBAL SOLUTIONS
+Website Content &amp; Wireframe Blueprint
+
+Comprehensive Page-by-Page Content Architecture
+Version 1.0  Â·  Prepared for Development Team
+Industry Reference: EMWA (emwa.org) &amp; AMWA (amwa.org)
+
+Document Overview
+This document serves as the complete content and wireframe blueprint for the MedWrite Global Solutions website. It outlines every page, section, sub-section, and copywriting direction required for the development and design team to build a professional, authoritative, and user-friendly website within the global medical writing and communications industry.
+The tone is professional, warm, and authoritative â€” mirroring the standards set by leading industry bodies such as EMWA and AMWA, while differentiating MedWrite Global Solutions as a globally focused, forward-thinking hub for medical writing professionals, organisations, and learners.
+Site Structure Overview
+The website consists of the following primary pages and their sub-pages:
+1. HOME
+2. ABOUT US â†’ Our Story, Our Mission &amp; Vision, Our Team, Code of Ethics
+3. SERVICES â†’ Regulatory Writing, Medical Communications, Publications, Medical Education, Consulting
+4. MEMBERSHIP â†’ Join &amp; Renew, Membership Benefits, FAQs, Recognition &amp; Awards
+5. EDUCATION &amp; TRAINING â†’ Professional Development Programme, Certification, Workshops, Webinars, eLearning
+6. CAREER â†’ Getting Into Medical Writing, Freelance Hub, Job Board, Career Guides, Salary Survey
+7. RESOURCES â†’ MedWrite Journal, Guidelines &amp; Position Papers, Useful Reading, Company Directory
+8. COMMUNITY &amp; EVENTS â†’ Special Interest Groups, Events Calendar, Annual Conference, Global Chapters
+9. NEWS &amp; BLOG
+10. CONTACT US
+
+PAGE 1: HOME
+â†’ Navigation: Logo [top-left] | Main Navigation [top-right] | Login / Member Portal [far right]
+
+Section 1 â€” Hero Banner (Full-Width)
+[ SECTION: Hero Headline ]
+Headline: &quot;Advancing Medical Communication. Globally.&quot;
+Sub-headline: &quot;MedWrite Global Solutions is the premier professional hub for medical writers, regulatory communicators, and healthcare content specialists worldwide â€” connecting expertise, fostering excellence, and shaping the future of medical communication.&quot;
+Primary CTA Button: &quot;Join MedWrite Today&quot;
+Secondary CTA Button: &quot;Explore Our Services&quot;
+Design Note: Full-width banner with a high-quality background image of a professional workspace or scientific environment. Overlay with semi-transparent NAVY. Headline in white, bold.
+Section 2 â€” About MedWrite (Intro Strip)
+[ SECTION: Introductory Overview ]
+MedWrite Global Solutions is a global network and professional solutions platform representing, supporting, and advancing medical writers, regulatory communicators, and healthcare content professionals across all sectors. Whether you work in-house at a pharmaceutical company, as a freelance medical writer, in a medical communications agency, or in academic publishing, MedWrite Global Solutions is your professional home.
+We provide world-class education, a vibrant professional community, career resources, an industry-leading journal, and a gateway to global opportunities in medical writing.
+[3 Icon Tiles below this text:]
+Icon 1 â€“ Globe: &quot;Global Reach&quot; â€” A network spanning 50+ countries with members from pharmaceutical, biotech, CRO, medcomms, and academic sectors.
+Icon 2 â€“ Graduation Cap: &quot;Professional Development&quot; â€” Accredited training programmes, workshops, and certifications designed for every career stage.
+Icon 3 â€“ Community: &quot;Thriving Community&quot; â€” Special Interest Groups, local chapters, events, and an annual conference that bring the profession together.
+Section 3 â€” Featured Pillars (3-Column Cards)
+[ SECTION: Core Service / Feature Highlights ]
+Card 1: MEMBERSHIP
+&quot;Become part of a global community of over 5,000 medical writing professionals. Access exclusive tools, resources, networking events, and career support â€” all in one place.&quot; [CTA: Learn About Membership]
+Card 2: EDUCATION &amp; TRAINING
+&quot;Advance your skills with our Professional Development Programme â€” featuring 100+ workshops, certification pathways, on-demand webinars, and expert-led eLearning modules.&quot; [CTA: Explore Training]
+Card 3: CAREER RESOURCES
+&quot;From getting your first role in medical writing to growing your freelance practice â€” our career guides, job board, salary benchmarking, and freelance directory give you the edge.&quot; [CTA: Browse Career Resources]
+Section 4 â€” What is Medical Writing? (Explainer Strip)
+[ SECTION: Industry Education / Why It Matters ]
+Headline: &quot;What Is Medical Writing?&quot;
+Medical writing is a specialist communication discipline that bridges scientific research and its communication to diverse audiences â€” from regulatory authorities and healthcare professionals to patients and the general public. Medical writers work across a broad spectrum of document types, including clinical study reports, regulatory submissions, journal manuscripts, patient information leaflets, training materials, medical education content, and much more.
+As the global pharmaceutical, biotech, and healthcare sectors continue to grow, the demand for skilled medical writers has never been greater. MedWrite Global Solutions exists to meet that demand â€” by empowering professionals at every career stage.
+[CTA Button: &quot;Explore a Career in Medical Writing&quot;]
+Section 5 â€” Member Benefits Quick View
+[ SECTION: Membership Highlights Strip ]
+âœ” Networking: Connect with peers, mentors, and employers worldwide through our platform, events, and community groups.
+âœ” Training: Earn credits and certificates through our Professional Development Programme â€” recognised industry-wide.
+âœ” Journal Access: Receive full access to the MedWrite Global Journal â€” a quarterly peer-reviewed publication.
+âœ” Job Board: Access exclusive job listings, freelance opportunities, and employer directories.
+âœ” Resources: Download career guides, industry position papers, clinical writing guidelines, and more.
+âœ” Conferences: Attend our flagship annual global conference and regional events throughout the year.
+Section 6 â€” Latest News &amp; Events (Dynamic Feed)
+[ SECTION: News &amp; Events Ticker / Cards ]
+[Automatically populated from the News &amp; Events section. Display 3 most recent articles/events in card format.]
+Card format: Thumbnail Image | Date | Title | Brief Excerpt | &quot;Read More&quot; link
+[CTA: &quot;View All News â†’&quot;]  [CTA: &quot;See All Events â†’&quot;]
+Section 7 â€” Testimonials / Social Proof
+[ SECTION: Member Testimonials Carousel ]
+Testimonial 1: &quot;MedWrite Global Solutions transformed my career. The workshops and mentorship I received through the Professional Development Programme gave me the confidence and skills to move from academia into industry medical writing within six months.&quot; â€” Dr. Sarah K., Regulatory Medical Writer, Germany
+Testimonial 2: &quot;The MedWrite Journal and resources library are invaluable. I reference them regularly for best-practice guidance on clinical trial reporting and publication planning.&quot; â€” James O., Senior Medical Writer, USA
+Testimonial 3: &quot;As a freelancer, the MedWrite Freelance Hub and job board have been essential tools for growing my client base internationally. The community is incredibly supportive.&quot; â€” Priya M., Freelance Medical Writer, India
+Section 8 â€” Stats Banner (Counter Strip)
+[ SECTION: Trust Indicators ]
+5,000+ Members Worldwide | 50+ Countries Represented | 100+ Training Workshops | 10,000+ Resources in Library
+Section 9 â€” Partners &amp; Affiliations
+[ SECTION: Logos Bar ]
+[Partner/affiliated organisation logos displayed in a horizontal scrolling row. Examples: pharmaceutical companies, CROs, regulatory bodies, academic partners.]
+Section 10 â€” Footer
+[ SECTION: Global Footer ]
+Column 1 â€” Logo + Tagline: &quot;MedWrite Global Solutions â€” Advancing Medical Communication Worldwide.&quot;
+Column 2 â€” Quick Links: Home, About Us, Services, Membership, Education, Career, Resources, Events, News, Contact
+Column 3 â€” Member Area: Login, My Account, Member Benefits, Renew Membership
+Column 4 â€” Contact Info: Email: info@medwriteglobal.com | Tel: +[Country Code] [Number] | Address: [Registered Office Address]
+Bottom Bar: Â© 2025 MedWrite Global Solutions. All Rights Reserved. | Privacy Policy | Terms &amp; Conditions | Cookie Policy | Sitemap
+Social Icons: LinkedIn | Twitter/X | YouTube | Facebook | Instagram
+
+PAGE 2: ABOUT US
+â†’ Navigation: About Us â†’ Our Story | Our Mission &amp; Vision | Our Team | Code of Ethics
+
+2.1 â€” About Us (Parent Page)
+[ SECTION: Page Hero ]
+Banner Headline: &quot;About MedWrite Global Solutions&quot;
+Sub-headline: &quot;Our story, our purpose, and the values that drive everything we do.&quot;
+Opening Introduction
+MedWrite Global Solutions was founded with a single, unwavering purpose: to elevate the global standard of medical communication by empowering the professionals who create it. We are a globally oriented organisation dedicated to representing, supporting, educating, and connecting medical writers, regulatory communicators, and healthcare content professionals across every sector of the life sciences and healthcare industry.
+From regulatory affairs and clinical development to medical education, patient communication, and scientific journalism, our members span the full breadth of the medical writing profession â€” across more than 50 countries and growing.
+2.2 â€” Our Story
+[ SECTION: History &amp; Background ]
+MedWrite Global Solutions grew out of a recognised need within the international medical writing community for a truly global platform â€” one that could serve professionals not only in established markets but in emerging regions where the profession is rapidly expanding.
+We began as a community of passionate medical communications specialists who recognised that the profession, while well-established in North America and Europe, deserved a globally inclusive platform where professionals from all regions could access world-class training, networking, and career support.
+Today, MedWrite Global Solutions has grown into a comprehensive professional solutions hub â€” offering membership, education, career tools, an industry journal, and a global community network â€” all underpinned by the highest standards of professional conduct and scientific integrity.
+Key Milestones (Timeline)
+[Display as a vertical timeline on the page]
+Year 1: MedWrite Global Solutions founded. Initial membership drive launched globally.
+Year 2: First Professional Development Programme launched with 30 core workshops.
+Year 3: MedWrite Global Journal published for the first time â€” quarterly, peer-reviewed.
+Year 4: Annual Global Conference held for the first time, attracting delegates from 20+ countries.
+Year 5: Certification Programme launched â€” MedWrite Certified Medical Writer (MCMW) credential introduced.
+Year 6: Membership surpasses 5,000. Global Chapters established in Asia-Pacific, Africa, Latin America.
+2.3 â€” Our Mission &amp; Vision
+[ SECTION: Mission / Vision / Values ]
+Our Mission
+&quot;To advance the global medical writing profession by providing exceptional education, fostering a vibrant professional community, advocating for the highest standards of medical communication, and supporting the career development of our members at every stage of their journey.&quot;
+Our Vision
+&quot;A world where every medical communication is clear, accurate, ethical, and impactful â€” produced by skilled, well-supported, and recognised professionals who are connected through a global community of excellence.&quot;
+Our Core Values
+Excellence: We uphold the highest standards in all aspects of medical communication and professional conduct.
+Integrity: We are committed to ethical practice, transparency, and accountability in all that we do.
+Inclusivity: We welcome professionals from all backgrounds, regions, specialisms, and career stages.
+Innovation: We embrace new technologies and approaches that advance the profession, including responsible AI in medical writing.
+Community: We believe in the power of connection, collaboration, and mutual support to advance both individuals and the profession as a whole.
+2.4 â€” Our Team
+[ SECTION: Leadership &amp; Governance ]
+MedWrite Global Solutions is governed by a dedicated Executive Committee and is supported by a network of volunteer committees, working groups, and regional representatives who contribute their time and expertise to advance the organisation and its members.
+Executive Committee
+[Display as cards with photo placeholder, name, title, brief bio]
+President | Vice President | Secretary General | Treasurer | Director of Education | Director of Membership | Director of Communications | Regional Directors (x4)
+Advisory Board
+Our Advisory Board comprises senior professionals from across the pharmaceutical, regulatory, academic, and medical communications sectors who provide strategic guidance to the organisation.
+Committees
+Education Committee: Oversees the Professional Development Programme, Certification, Workshops, and Webinars.
+Membership Committee: Manages membership recruitment, retention, and benefits.
+Publications Committee: Oversees the MedWrite Global Journal and member publications.
+Ethics Committee: Develops and enforces the Code of Ethics and professional conduct guidelines.
+Events Committee: Plans and executes the Annual Conference and regional events.
+Career Development Committee: Manages the Getting Into Medical Writing programme, Job Board, and Freelance Hub.
+2.5 â€” Code of Ethics
+[ SECTION: Professional Standards ]
+Medical writing carries significant responsibility. The documents and communications created by medical writers directly influence healthcare decisions, regulatory approvals, patient safety, and scientific understanding. At MedWrite Global Solutions, we hold all members to a rigorous Code of Ethics that reflects the highest standards of the profession.
+Core Ethical Principles
+Accuracy: All medical communications must be based on accurate, complete, and scientifically sound information.
+Transparency: Authors&apos; and medical writers&apos; contributions must be clearly disclosed. Ghost-writing without acknowledgement is not condoned.
+Independence: Medical writers must maintain scientific objectivity and independence from undue commercial influence.
+Confidentiality: Members must protect the confidentiality of client data, patient information, and proprietary information at all times.
+Accountability: Members are accountable for the quality and integrity of their work and must comply with applicable laws, regulations, and guidelines.
+Continuous Learning: Members are committed to ongoing professional development to ensure their knowledge and skills remain current.
+[Download Full Code of Ethics PDF â€” CTA Button]
+
+PAGE 3: SERVICES
+â†’ Navigation: Services â†’ Regulatory Writing | Medical Communications | Publications | Medical Education | Consulting
+
+3.0 â€” Services (Parent Page)
+Banner Headline: &quot;Medical Writing Services for Every Need&quot;
+Sub-headline: &quot;From first-in-human regulatory submissions to peer-reviewed publications and patient-facing communications â€” MedWrite Global Solutions connects you with the expertise and resources to deliver.&quot;
+Opening Body: At MedWrite Global Solutions, our services directory and expert network exist to support organisations and professionals across the full medical communications spectrum. Whether you are a pharmaceutical company seeking specialist regulatory writing support, a medical communications agency looking to grow your team, or a researcher navigating the publication process, we provide the frameworks, networks, and guidance to achieve exceptional outcomes.
+3.1 â€” Regulatory Writing
+[ SECTION: Service Area 1 ]
+Regulatory medical writers specialise in the creation of complex documentation required by global regulatory authorities such as the US FDA, EMA, PMDA, and others. This is one of the most technically demanding areas of medical writing, requiring an in-depth understanding of drug development, clinical trial methodology, and regulatory requirements.
+Document Types Covered
+Clinical Study Reports (CSRs): Comprehensive reports summarising the design, conduct, and results of clinical trials, prepared to ICH E3 standards.
+Common Technical Documents (CTDs): Integrated regulatory submissions for global marketing authorisation applications.
+Investigational Medicinal Product Dossiers (IMPDs): Documentation supporting clinical trial authorisation applications.
+Investigator&apos;s Brochures (IBs): Summaries of clinical and non-clinical data relevant to the study of an investigational product in human subjects.
+Summary of Product Characteristics (SmPC) / Package Inserts: Prescribing information documents for approved medicinal products.
+Patient Information Leaflets (PILs): Clear, accurate, and accessible written information for patients.
+Regulatory Responses &amp; Queries: Written responses to questions from regulatory authorities during the review process.
+Pharmacovigilance Documents: Periodic Safety Update Reports (PSURs), Risk Management Plans (RMPs), and related safety documentation.
+3.2 â€” Medical Communications
+[ SECTION: Service Area 2 ]
+Medical communications (medcomms) encompasses the creation of content that communicates scientific and clinical information to healthcare professionals, payers, and other stakeholders. This is a fast-paced, creative, and strategically driven area of the profession.
+Document Types Covered
+Congress Materials: Abstracts, posters, oral presentations, and symposium slide decks for scientific congresses and conferences.
+Advisory Board Documentation: Meeting materials, briefing documents, pre-read packs, and reports for medical advisory boards.
+Medical Affairs Writing: Medical information letters, clinical summaries, and field medical team materials.
+Health Economics &amp; Outcomes Research (HEOR): Manuscripts, posters, and dossiers supporting value and reimbursement submissions.
+Slide Kits &amp; Speaker Decks: Scientifically accurate, visually compelling presentations for HCP audiences.
+Digital Content: Online learning modules, medical websites, disease awareness content, and digital campaigns.
+3.3 â€” Publications
+[ SECTION: Service Area 3 ]
+Scientific publication is a cornerstone of medical evidence dissemination. Our resources and guidance support the ethical development of high-quality manuscripts for peer-reviewed journals, in full compliance with industry guidelines.
+Areas Covered
+Original Research Manuscripts: Preparation of primary publications reporting the results of clinical and preclinical studies.
+Review Articles: Systematic reviews, narrative reviews, and meta-analyses.
+Case Reports &amp; Case Series: Documentation of clinically important individual patient cases.
+Publication Planning: Strategic planning of publication programmes for clinical development programmes.
+Ethical Authorship: Guidance on adherence to ICMJE authorship criteria, disclosure of medical writing assistance, and ethical publication practice.
+Journal Selection &amp; Submission: Strategic guidance on target journal selection and manuscript submission processes.
+3.4 â€” Medical Education
+[ SECTION: Service Area 4 ]
+Medical education writing serves to inform, train, and upskill healthcare professionals, patients, and carers. This area requires a particular ability to translate complex clinical information into clear, accessible, and engaging learning content.
+Content Types
+Continuing Medical Education (CME/CPD) Programmes: Accredited educational content for healthcare professionals.
+E-Learning Modules: Interactive digital learning tools for online delivery.
+Training Materials: Internal training documents for pharmaceutical, biotech, and healthcare organisations.
+Patient Education Materials: Clear, empathetic content designed to help patients and carers understand conditions, treatments, and self-management.
+Disease Awareness Campaigns: Evidence-based content to raise awareness of conditions among patient and HCP audiences.
+3.5 â€” Consulting &amp; Strategic Support
+[ SECTION: Service Area 5 ]
+Beyond document production, MedWrite Global Solutions connects organisations with senior medical writing consultants who can provide strategic guidance, quality oversight, and specialist input at every stage of the drug development and communications lifecycle.
+Medical Writing Strategy: Development of document strategies, publication plans, and regulatory communication strategies.
+Freelance Network Access: Access to our vetted global network of freelance medical writers across all specialisms.
+Training &amp; Capability Building: In-house training programmes to develop your organisation&apos;s internal medical writing capability.
+Quality Review &amp; Editorial Services: Expert editorial review, fact-checking, and quality assurance for medical communications.
+
+PAGE 4: MEMBERSHIP
+â†’ Navigation: Membership â†’ Join &amp; Renew | Benefits | FAQs | Recognition &amp; Awards | My Account
+
+4.0 â€” Membership (Parent Page)
+Banner Headline: &quot;Your Global Professional Home in Medical Writing&quot;
+Sub-headline: &quot;Join thousands of medical writing professionals worldwide and unlock everything MedWrite Global Solutions has to offer.&quot;
+4.1 â€” Membership Benefits
+[ SECTION: Benefits Overview ]
+At MedWrite Global Solutions, membership is more than a subscription â€” it&apos;s an investment in your professional future. As a member, you gain access to a comprehensive suite of resources, tools, and opportunities designed to advance your career, expand your knowledge, and connect you with a thriving global community.
+Professional Development
+Training Workshops: Priority access to our Professional Development Programme workshops at conferences and online events.
+Certification: Eligibility to apply for the MedWrite Certified Medical Writer (MCMW) credential.
+Webinars: Free and discounted access to our live and on-demand webinar programme.
+eLearning: Access to our growing library of self-paced online learning modules.
+Community &amp; Networking
+Special Interest Groups: Participate in member-led SIGs covering regulatory writing, publications, pharmacovigilance, AI in medical writing, and more.
+Global Chapters: Engage with your local MedWrite chapter for regional events, networking, and mentorship.
+Annual Conference: Member-rate access to our flagship annual global conference.
+Online Community Platform: Access to our member-only discussion forums, resource-sharing space, and peer network.
+Career Support
+Job Board: Access to exclusive job listings from global pharmaceutical, biotech, CRO, and medcomms employers.
+Freelance Hub: List your services in the MedWrite Freelance Directory and connect with clients worldwide.
+Career Guides: Downloadable guides on CVs, interviews, transitioning into medical writing, and more.
+Salary Benchmarking: Access to the annual MedWrite Salary &amp; Remuneration Survey data.
+Resources &amp; Publications
+MedWrite Global Journal: Full access to our quarterly peer-reviewed journal and its complete digital archive.
+Guidelines Library: Access to industry position papers, ethical guidelines, and best-practice documents.
+Reading Resources: Curated library of useful reading, book reviews, and learning materials.
+4.2 â€” Membership Types &amp; Fees
+[ SECTION: Pricing Table ]
+[Display as a 3-column comparison table]
+Individual Member: Full access to all member benefits. Annual subscription fee. Suitable for employed and freelance medical writing professionals.
+Student / Early Career Member: Discounted rate for students and those within their first two years of medical writing employment. Full access to core benefits.
+Corporate / Organisational Member: Team memberships for organisations. Includes seats for multiple staff members, plus additional employer-facing tools and profile listing.
+[CTA Button: &quot;Join Now&quot; | &quot;Renew My Membership&quot;]
+4.3 â€” Membership FAQs
+[ SECTION: FAQ Section ]
+Q: Who can become a member of MedWrite Global Solutions?
+A: Membership is open to anyone working in or interested in the field of medical writing and communications â€” including regulatory medical writers, medical communications specialists, publications writers, freelancers, healthcare professionals, academics, journalists, and students with a scientific background.
+Q: How do I apply for membership?
+A: Simply complete our online membership application form. Once your application is reviewed and approved, you will receive access to all member benefits immediately upon payment.
+Q: Can I join if I am based outside of [primary region]?
+A: Absolutely. MedWrite Global Solutions is a truly global organisation. We welcome members from all countries and actively support a diverse, international membership community.
+Q: What is the difference between a Student/Early Career membership and a full Individual membership?
+A: Student/Early Career memberships are offered at a reduced rate to make professional development accessible to those who are newer to the field. The core benefits are largely equivalent, with some differences in access levels which are outlined in full on our membership comparison page.
+Q: How do I renew my membership?
+A: Membership renewal is managed through your online account. You will receive reminder notifications ahead of your renewal date. You can also set up auto-renewal for convenience.
+4.4 â€” Recognition &amp; Awards
+[ SECTION: Awards Programme ]
+MedWrite Global Solutions recognises exceptional contributions to the profession through a range of annual awards and honours. These awards celebrate the achievements of medical writers who have demonstrated outstanding commitment to professional excellence, mentorship, innovation, and service to the community.
+Annual Award Categories
+MedWrite Excellence Award: Recognising outstanding achievement in medical writing practice over the course of a career.
+Rising Star Award: Celebrating a new or early-career medical writer who has demonstrated exceptional promise and achievement.
+Mentor of the Year Award: Honouring a member who has made a sustained and significant contribution to mentoring and supporting others in the profession.
+Innovation in Medical Communication Award: Recognising a member or team that has pioneered a new approach, method, or tool in medical communication.
+Community Contribution Award: Celebrating a member who has given outstanding voluntary service to MedWrite Global Solutions or the wider profession.
+[Nominations for all awards open annually. View past award winners and nominate a colleague. CTA: &quot;Nominate Now&quot;]
+
+PAGE 5: EDUCATION &amp; TRAINING
+â†’ Navigation: Education â†’ Professional Development Programme | Certification | Workshops | Webinars | eLearning
+
+5.0 â€” Education &amp; Training (Parent Page)
+Banner Headline: &quot;Invest in Your Expertise. Advance Your Career.&quot;
+Sub-headline: &quot;Our comprehensive education portfolio provides medical writing professionals with the structured, expert-led training they need to grow, specialise, and excel at every stage of their career.&quot;
+MedWrite Global Solutions believes that continuous learning is not just a professional obligation â€” it is the engine of excellence in medical communication. Our education and training programme is designed to serve everyone from those exploring a career in medical writing for the first time, to seasoned specialists seeking to deepen expertise in highly technical areas.
+5.1 â€” Professional Development Programme (PDP)
+[ SECTION: Flagship Training Programme ]
+The MedWrite Professional Development Programme (PDP) is our flagship structured training initiative. It provides high-quality, expert-delivered training for medical writers at all levels through a combination of live workshops, pre- and post-session assignments, and online learning components.
+How the PDP Works
+Credit System: Each workshop completed earns a defined number of professional development credits, logged automatically in your personal training record.
+Certificate Levels: Upon accumulating the required credits in prescribed combinations, members may apply for MedWrite Foundation or Advanced Certificates.
+Expert Facilitators: All workshops are delivered by experienced medical writing professionals with hands-on expertise in their subject area.
+Quality Assured: All workshops undergo rigorous review by the MedWrite Education Committee to ensure quality and relevance.
+PDP Workshop Categories
+Writing &amp; Language Skills â€” grammar, scientific writing style, plain language, editing and proofreading
+Regulatory Writing â€” CTDs, CSRs, PSURs, product labelling, regulatory strategy
+Medical Science &amp; Pharmacology â€” disease areas, drug mechanisms, clinical pharmacology
+Clinical Trial Design &amp; Reporting â€” ICH guidelines, statistical concepts, data presentation
+Publications Writing â€” manuscript preparation, publication ethics, ICMJE guidelines, systematic reviews
+Medical Communications â€” advisory boards, congress materials, digital communications, HCP communications
+Health Economics &amp; Outcomes Research â€” HEOR writing, value dossiers, reimbursement submissions
+Pharmacovigilance Writing â€” PSURs, RMPs, ICSR writing, signal management documentation
+Medical Education â€” CME/CPD content, patient education, e-learning authoring
+Professional Skills â€” project management, business development, AI tools in medical writing, freelancing
+[CTA: &quot;Download PDP Brochure&quot; | &quot;Browse All Workshops&quot;]
+5.2 â€” Certification
+[ SECTION: MedWrite Certified Medical Writer (MCMW) ]
+The MedWrite Certified Medical Writer (MCMW) credential is a globally recognised mark of professional excellence in medical writing. It signals to employers, clients, and collaborators that you have met a defined standard of knowledge, skill, and ethical practice in the field.
+Certification Pathways
+Foundation Certificate: Earned by completing a defined set of core PDP credits spanning writing skills, medical science, and professional practice.
+Advanced Certificate: Earned by completing an expanded set of PDP credits including specialist areas such as regulatory, publications, or medical communications.
+Specialist Endorsements: Optional add-on endorsements in specific domains: Regulatory Writing, Publications, Pharmacovigilance, Medical Communications.
+Eligibility &amp; Application
+To apply for certification, members must: hold an active MedWrite Global Solutions membership; have completed the required PDP credits within the specified timeframe; submit a completed application form along with supporting evidence.
+[CTA: &quot;View Certification Requirements&quot; | &quot;Apply for Certification&quot;]
+5.3 â€” Workshops
+[ SECTION: Workshop Programme ]
+MedWrite Global Solutions runs workshops at our Annual Global Conference and through a growing portfolio of regional and virtual events throughout the year. Workshops range from half-day foundational sessions to full-day intensive deep-dives.
+Workshop Format
+Interactive: All workshops are designed to encourage active participation, group discussion, and real-world application of skills.
+Pre-Work: Selected workshops include pre-session reading or assignments to maximise in-session learning.
+Post-Work: Some workshops include post-session assignments to consolidate learning and earn additional PDP credits.
+[Display upcoming workshops in a filterable grid: Filter by Topic / Level / Format / Date]
+5.4 â€” Webinars
+[ SECTION: Webinar Programme ]
+Our webinar programme brings expert insight directly to your screen â€” wherever you are in the world. We host live webinars throughout the year on topics that are current, practical, and directly relevant to the medical writing profession.
+Whether you are exploring a new specialist area, staying up to date with regulatory changes, or learning about the latest advances in medical communications, our webinars provide an efficient and engaging format for continuous professional learning.
+Webinar Features
+Live Q&amp;A: All live webinars include a dedicated Q&amp;A session with the presenter(s).
+On-Demand Archive: Members have access to a growing library of recorded webinars for learning at their own pace.
+PDP Credits: Selected webinars are credit-bearing under the MedWrite Professional Development Programme.
+[Upcoming Webinars Grid] [On-Demand Webinar Library â€” Members Only]
+5.5 â€” eLearning
+[ SECTION: Online Self-Paced Learning ]
+Our eLearning portal provides self-paced, interactive online courses for medical writing professionals who prefer flexible, on-demand learning. Modules are available on a range of topics and are suitable for learners from beginner to advanced levels.
+Introduction to Medical Writing: An ideal starting point for those new to the profession.
+Regulatory Writing Essentials: Foundational knowledge of regulatory documentation, guidelines, and processes.
+Publications Ethics &amp; Practice: A deep dive into ICMJE guidelines, authorship, disclosure, and ethical publication planning.
+AI in Medical Writing: Responsible use of artificial intelligence tools in medical communication practice.
+Statistics for Medical Writers: Understanding study design, key statistical concepts, and data interpretation.
+[CTA: &quot;Browse eLearning Courses&quot; | Members access included in membership fee.]
+
+PAGE 6: CAREER
+â†’ Navigation: Career â†’ Getting Into Medical Writing | Freelance Hub | Job Board | Career Guides | Salary Survey
+
+6.0 â€” Career (Parent Page)
+Banner Headline: &quot;Build the Medical Writing Career You Deserve&quot;
+Sub-headline: &quot;Whether you&apos;re starting out, pivoting from another field, growing your freelance practice, or looking for your next step â€” MedWrite Global Solutions has the tools and resources to support your journey.&quot;
+6.1 â€” Getting Into Medical Writing
+[ SECTION: Career Entry Programme ]
+Medical writing is one of the most rewarding careers for scientifically trained individuals who have a talent for clear communication. It offers excellent earning potential, intellectual variety, the opportunity to work across diverse therapy areas, and the flexibility of both in-house and freelance career models.
+What Does a Medical Writer Do?
+Medical writers create a wide range of written documents that communicate scientific and clinical information to various audiences. Depending on their specialism, they may write clinical study reports, regulatory submissions, journal manuscripts, patient information leaflets, educational materials, congress posters, advisory board documents, or digital health content.
+What Qualifications Do I Need?
+Most medical writers hold at least an undergraduate degree in a science, health, or life sciences discipline. Many have postgraduate qualifications (MSc, PhD, PharmD, MD) and prior research experience. However, the most important attributes are strong written communication skills, scientific rigour, attention to detail, and the ability to translate complex information clearly and accurately. Several members have successfully transitioned into medical writing from clinical practice, academia, nursing, pharmacy, and other health sciences backgrounds.
+Types of Medical Writing Roles
+Regulatory Medical Writer: Specialises in documentation for regulatory submissions and drug approval processes.
+Publications Medical Writer: Focuses on scientific manuscripts, abstracts, and posters for peer-reviewed publication.
+Medical Communications Writer: Creates content for healthcare professional audiences in a commercial communications context.
+Medical Education Writer: Develops CME/CPD programmes and educational content for HCPs and patients.
+Pharmacovigilance Writer: Specialises in safety documentation and pharmacovigilance submissions.
+Freelance Medical Writer: Works independently across multiple client organisations on a project or retainer basis.
+Getting into Medical Writing â€” Programme
+MedWrite Global Solutions runs a dedicated programme for aspiring and early-career medical writers, including virtual sessions, mentoring, networking events, and a dedicated Career Guide.
+[CTA: &quot;Download the Career Guide for Aspiring Medical Writers&quot; | &quot;Sign Up for Our Next Getting Into Medical Writing Session&quot;]
+6.2 â€” Freelance Hub
+[ SECTION: Freelance Resources ]
+Freelance medical writing is a growing and popular career model. Many of our members operate as independent consultants, serving pharmaceutical companies, medical communications agencies, academic institutions, and publishers on a project or retainer basis.
+Freelance Directory
+The MedWrite Freelance Directory is a searchable online directory listing member medical writers who are available for freelance and contract work. Organisations can search by specialism, therapy area, language, and region to find the right freelance professional for their project.
+[For Members: List your services in the Freelance Directory | For Employers: Search the Freelance Directory]
+Freelance Resources
+Setting Your Rate: Guidance on benchmarking your freelance fees against industry standards.
+Contracts &amp; Legal: Template agreements, NDAs, and guidance on protecting your freelance business.
+Tax &amp; Business Setup: Practical guidance on setting up and managing a freelance medical writing business.
+Finding Clients: Strategies for building a client pipeline through networking, LinkedIn, agencies, and direct outreach.
+Managing Projects: Tools and tips for managing multiple projects, deadlines, and client relationships.
+6.3 â€” Job Board
+[ SECTION: Employment Listings ]
+The MedWrite Global Solutions Job Board is the leading destination for medical writing job listings worldwide. Employers post vacancies for full-time, part-time, contract, and freelance roles across all areas of the profession.
+Job seekers can search by role type, specialism, location, experience level, and sector. All listings are reviewed to ensure relevance and quality.
+[For Job Seekers: Browse &amp; Apply for Jobs | Filter by: Role Type / Specialism / Location / Sector / Level]
+[For Employers: Post a Job Vacancy | Advertise Your Company Profile]
+6.4 â€” Career Guides
+[ SECTION: Downloadable Resources ]
+Our Career Guides library provides practical, professionally written guidance documents on every aspect of building and advancing a career in medical writing. All guides are available to download free of charge for MedWrite members.
+Career Guide: An Introduction to Medical Writing: The definitive starting point for anyone considering the profession.
+CV &amp; LinkedIn Guide for Medical Writers: How to position your experience effectively to attract employers and clients.
+Transitioning from Academia to Industry Medical Writing: A practical roadmap for scientists moving into the commercial sector.
+The Freelance Medical Writer&apos;s Business Guide: Everything you need to set up and grow a successful freelance practice.
+Moving Up: From Junior to Senior Medical Writer: Career development strategies for mid-career professionals.
+Interview Guide for Medical Writers: Preparation tips, common questions, and how to demonstrate your skills effectively.
+6.5 â€” Salary Survey
+[ SECTION: Remuneration Benchmarking ]
+The annual MedWrite Global Salary &amp; Remuneration Survey is the most comprehensive benchmarking resource available to medical writing professionals worldwide. The survey collects data on salaries, freelance rates, benefits, and working conditions across sectors, regions, seniority levels, and specialisms.
+Members receive full access to the survey results, enabling them to benchmark their own remuneration, negotiate with confidence, and stay informed about market trends.
+[CTA: &quot;Access the Latest Salary Survey (Members Only)&quot; | &quot;Take Part in This Year&apos;s Survey&quot;]
+
+PAGE 7: RESOURCES
+â†’ Navigation: Resources â†’ MedWrite Journal | Guidelines &amp; Position Papers | Useful Reading | Company Directory
+
+7.0 â€” Resources (Parent Page)
+Banner Headline: &quot;Your Knowledge Hub for Medical Writing Excellence&quot;
+Sub-headline: &quot;Access a comprehensive library of resources â€” from our peer-reviewed journal to industry guidelines, curated reading lists, and a global company directory.&quot;
+7.1 â€” MedWrite Global Journal
+[ SECTION: Quarterly Publication ]
+The MedWrite Global Journal is our flagship quarterly publication â€” a peer-reviewed journal dedicated to all aspects of medical writing and communication. Each issue is themed around a specific focus area and features articles written by and for medical writing professionals.
+What the Journal Covers
+Regulatory Writing: Updates on regulatory guidelines, submission best practices, and developments at global regulatory agencies.
+Publications &amp; Ethics: Articles on publication planning, authorship, ethical issues, and trends in scientific publishing.
+Medical Communications: Features on medcomms strategy, audience engagement, and emerging communication formats.
+Career &amp; Professional Development: Articles on career pathways, skills development, mentoring, and freelancing.
+Technology &amp; AI: Exploration of digital tools, AI applications, and the future of medical writing.
+Member Features: Member profiles, interviews with industry leaders, and opinion pieces.
+Contribute to the Journal
+The MedWrite Global Journal welcomes submissions from members. Whether you have insights to share, research to present, or a perspective on a current issue in the profession, we encourage you to contribute. Submissions are subject to peer review and editorial assessment.
+[CTA: &quot;Read the Latest Issue&quot; | &quot;Browse Journal Archive&quot; | &quot;Submit an Article&quot;]
+7.2 â€” Guidelines &amp; Position Papers
+[ SECTION: Professional Standards Documents ]
+MedWrite Global Solutions develops, publishes, and endorses guidelines and position papers on key topics affecting the medical writing profession. These documents represent the considered views of our membership and expert contributors, and serve as a reference for best practice in the field.
+Available Documents
+MedWrite Guidelines on the Role of the Medical Writer: A foundational document defining the professional role, responsibilities, and boundaries of the medical writer.
+Position Statement on the Appropriate Acknowledgement of Medical Writers: Guidance on transparent disclosure of medical writing contributions in publications.
+AI in Medical Writing â€” Principles &amp; Guidelines: A forward-looking guidance document on the responsible use of AI tools in medical communication.
+Joint Position Statement on Publication Ethics &amp; Predatory Publishing: Co-developed with peer associations to combat predatory publishing practices.
+Position Statement on Good Publication Practice: Alignment with GPP3 principles for ethical pharmaceutical publication.
+[All documents available to download in PDF. Members-only access for selected documents.]
+7.3 â€” Useful Reading
+[ SECTION: Curated Resource Library ]
+Our Useful Reading library is a curated collection of external publications, guidelines, regulatory documents, and reading materials relevant to medical writing practice. Resources are organised by topic and regularly reviewed and updated by our editorial team.
+Topic Categories
+Regulatory Guidelines (ICH, FDA, EMA, PMDA documents)
+Clinical Trial Reporting Standards
+Publication Ethics (ICMJE, COPE, GPP3)
+Statistical Resources for Medical Writers
+Health Economics &amp; Outcomes Research
+AI &amp; Technology in Medical Writing
+Plain Language &amp; Patient Communications
+Pharmacovigilance &amp; Drug Safety Writing
+7.4 â€” Company Directory
+[ SECTION: Industry Employer &amp; Supplier Listings ]
+The MedWrite Company Directory is a searchable listing of organisations active in the medical writing and communications ecosystem â€” including pharmaceutical companies, biotechs, CROs, medical communications agencies, regulatory consultancies, and publishing houses.
+Companies listed in the directory may be employers seeking to recruit medical writers, clients of freelance medical writers, or service providers to the medical writing community.
+[Search Directory: Filter by Company Type / Sector / Region / Specialism]
+[For Companies: List Your Organisation in the Directory | Advertising opportunities available â€” see Advertise With Us]
+
+PAGE 8: COMMUNITY &amp; EVENTS
+â†’ Navigation: Community â†’ Special Interest Groups | Global Chapters | Events Calendar | Annual Conference
+
+8.0 â€” Community &amp; Events (Parent Page)
+Banner Headline: &quot;Connect. Collaborate. Belong.&quot;
+Sub-headline: &quot;The MedWrite Global Solutions community is at the heart of everything we do. From Special Interest Groups and local chapters to our flagship annual conference â€” we create the spaces where the medical writing profession comes together.&quot;
+8.1 â€” Special Interest Groups (SIGs)
+[ SECTION: Member-Led Thematic Communities ]
+Special Interest Groups (SIGs) are member-led communities within MedWrite Global Solutions that bring together professionals with shared interests in specific areas of medical writing practice. SIGs meet virtually and/or in person to share knowledge, discuss developments, collaborate on resources, and support one another professionally.
+Current SIGs
+Regulatory Writing SIG: Focused on regulatory submission writing, guidance updates, and best practices.
+Publications SIG: Discussions on publication planning, manuscript preparation, and publication ethics.
+Pharmacovigilance Writing SIG: Specialist focus on safety documentation, PSURs, and RMP writing.
+Medical Communications SIG: Exploration of medcomms strategy, HCP communications, and congress materials.
+AI in Medical Writing Working Group: A dynamic working group exploring the responsible integration of AI tools in medical writing workflows.
+Patient Communications SIG: Focus on plain language, health literacy, and patient-facing document creation.
+Freelance Medical Writers SIG: Peer support, business advice, and networking for independent medical writing professionals.
+Early Career Network: A supportive community specifically for those in the first five years of their medical writing career.
+[Join a SIG â€” Members Only. CTA: &quot;View All SIGs &amp; Join&quot;]
+8.2 â€” Global Chapters
+[ SECTION: Regional Community Networks ]
+MedWrite Global Solutions operates regional chapters around the world, providing local communities of medical writers with opportunities to meet, network, and participate in events closer to home. Each chapter runs its own programme of activities, including local networking events, webinars, workshops, and social gatherings.
+Current Chapters
+North America Chapter
+Europe Chapter
+Asia-Pacific Chapter
+Africa &amp; Middle East Chapter
+Latin America Chapter
+South Asia Chapter
+[Interested in establishing a new chapter in your region? Contact us. CTA: &quot;Get Involved with a Local Chapter&quot;]
+8.3 â€” Events Calendar
+[ SECTION: Events Listings ]
+Our events calendar is your central resource for all MedWrite Global Solutions activities â€” from our Annual Global Conference and regional events to webinars, SIG meetings, and Getting Into Medical Writing sessions.
+[Dynamic calendar display: Filter by Event Type / Region / Date / Topic]
+Event types include: Annual Conference | Regional Conferences | Webinars | Workshops | SIG Meetings | Chapter Events | Getting Into Medical Writing Sessions | Award Ceremonies
+8.4 â€” Annual Global Conference
+[ SECTION: Flagship Event ]
+The MedWrite Global Solutions Annual Conference is the premier event in the medical writing calendar. Held in a different global city each year, the conference brings together medical writing professionals from around the world for three days of learning, networking, and celebration of the profession.
+What to Expect at the Annual Conference
+Plenary Sessions: Inspiring keynote presentations from industry leaders, regulatory experts, and innovators.
+Professional Development Workshops: A full programme of PDP-credited workshops delivered by expert facilitators.
+Poster &amp; Abstract Sessions: Opportunities to present and discuss original work in the field of medical writing and communication.
+SIG &amp; Working Group Meetings: Dedicated sessions for Special Interest Groups and Working Groups.
+Networking Events: Welcome reception, conference dinner, and informal networking opportunities.
+Annual Awards Ceremony: Celebrating the achievements of outstanding members of the medical writing community.
+Getting Into Medical Writing Day: A dedicated full-day programme for aspiring and early-career medical writers.
+Exhibition: An exhibition showcasing products, services, and tools relevant to the medical writing profession.
+[CTA: &quot;Register for the Next Annual Conference&quot; | &quot;View Past Conference Archives&quot;]
+
+PAGE 9: NEWS &amp; BLOG
+â†’ Navigation: News &amp; Blog â†’ All Posts | Industry News | Member Spotlights | Organisation Updates | Guest Posts
+
+9.0 â€” News &amp; Blog (Parent Page)
+Banner Headline: &quot;Stay Informed. Stay Connected.&quot;
+Sub-headline: &quot;The latest news, insights, and perspectives from MedWrite Global Solutions and across the global medical writing and communications industry.&quot;
+9.1 â€” Page Layout
+[ SECTION: Blog / News Grid ]
+Layout: Featured article displayed prominently at the top. Below: responsive grid of article cards (3 columns on desktop, 2 on tablet, 1 on mobile).
+Each article card includes: Category Tag | Title | Author Name | Date | Brief Excerpt (2â€“3 lines) | Read More link | Estimated Reading Time
+9.2 â€” Article Categories
+[ SECTION: Content Taxonomy ]
+Industry News: Updates from regulatory agencies, pharmaceutical industry, academic publishing, and the medical communications sector.
+MedWrite Updates: News from MedWrite Global Solutions â€” programme launches, awards, conference announcements, new resources.
+Career Insights: Practical advice, career stories, and guidance for medical writing professionals at all levels.
+Member Spotlights: Profiles and interviews with members sharing their career journeys and expertise.
+Expert Perspectives: Opinion pieces, thought leadership, and commentary from senior professionals in the field.
+Technology &amp; AI: Articles on how digital tools and AI are shaping the medical writing landscape.
+Regulatory Updates: Plain-language summaries of guideline updates from global regulatory authorities.
+Event Recaps: Summaries and highlights from MedWrite events, conferences, and webinars.
+9.3 â€” Sample Article Headlines (Placeholder Content)
+[ SECTION: Editorial Direction Examples ]
+&quot;The Rise of AI in Regulatory Writing: Opportunity or Risk?&quot; â€” Technology &amp; AI
+&quot;From PhD to Medical Writer: My Transition Story&quot; â€” Career Insights / Member Spotlight
+&quot;New ICH E6(R3) Good Clinical Practice Guideline: What Medical Writers Need to Know&quot; â€” Regulatory Updates
+&quot;Making the Case for Fair Credit: Why Acknowledging Medical Writers Matters&quot; â€” Expert Perspectives
+&quot;Inside the Annual MedWrite Conference: Highlights from [City]&quot; â€” Event Recap
+&quot;Salary Survey Results: What Medical Writers Are Earning in [Year]&quot; â€” Industry News
+&quot;Publication Planning 101: A Practical Guide for Early-Career Writers&quot; â€” Career Insights
+
+PAGE 10: CONTACT US
+â†’ Navigation: Contact Us â†’ General Enquiries | Advertise With Us | Get Involved | Media &amp; Press
+
+10.0 â€” Contact Us (Parent Page)
+Banner Headline: &quot;We&apos;d Love to Hear From You&quot;
+Sub-headline: &quot;Whether you have a question about membership, education, events, or advertising â€” our team is here to help.&quot;
+10.1 â€” General Enquiries
+[ SECTION: Contact Form ]
+Display a contact form with the following fields:
+Full Name (required)
+Email Address (required)
+Organisation / Company (optional)
+Country (required â€” dropdown)
+Subject / Enquiry Type (required â€” dropdown: Membership | Education &amp; Training | Events &amp; Conference | Career &amp; Freelance Resources | Journal | Advertising | General Enquiry | Other)
+Message (required â€” text area)
+Data consent checkbox: &quot;I consent to MedWrite Global Solutions storing my contact details and using them to respond to this enquiry, in accordance with our Privacy Policy.&quot; (required)
+[Submit Button: &quot;Send Message&quot;]
+Direct Contact Details (displayed alongside the form):
+Email: info@medwriteglobal.com
+Telephone: +[Country Code] [Number] â€” Monday to Friday, 09:00â€“17:00 [Timezone]
+Registered Office: [Address Line 1], [City], [Country], [Postcode]
+10.2 â€” Advertise With Us
+[ SECTION: Advertising &amp; Sponsorship ]
+MedWrite Global Solutions offers a range of advertising and sponsorship opportunities for organisations wishing to reach the global medical writing and communications professional community. Our membership base represents a highly targeted, engaged audience of decision-makers and specialists across pharmaceutical, biotech, medcomms, and regulatory sectors.
+Advertising Opportunities
+Website Banner Advertising: Prominent display advertising across key pages of the MedWrite Global Solutions website.
+Journal Advertising: Full-page, half-page, and banner advertising in the MedWrite Global Journal (print and digital).
+Email Newsletter Sponsorship: Sponsored content and advertising in our member newsletter, sent to 5,000+ subscribers.
+Events Sponsorship: Sponsorship packages for the Annual Global Conference, regional events, and webinars.
+Company Directory Listing: Enhanced listings in the MedWrite Company Directory with logo, company profile, and links.
+Job Board Promotion: Premium placement and promoted job listings on the MedWrite Job Board.
+[CTA: &quot;Request Our Advertising &amp; Sponsorship Brochure&quot; | &quot;Contact Our Advertising Team&quot;]
+10.3 â€” Get Involved
+[ SECTION: Volunteer &amp; Contribution Opportunities ]
+MedWrite Global Solutions is built on the commitment and generosity of our members. There are many ways to contribute to the organisation and the profession â€” from joining a committee to leading a workshop, writing for the journal, or becoming a regional ambassador.
+Opportunities to Get Involved
+Join a Committee: Apply to serve on one of our standing committees â€” Education, Membership, Publications, Events, Ethics, or Career Development.
+Become a Workshop Leader: Share your expertise by facilitating a workshop in our Professional Development Programme. Training and support provided.
+Contribute to the Journal: Write an article, opinion piece, or member spotlight for the MedWrite Global Journal.
+Become a Regional Ambassador: Represent MedWrite Global Solutions in your region, promoting the profession and our community at universities, conferences, and institutions.
+Lead or Join a SIG: Help lead or participate in a Special Interest Group, shaping the direction of your specialist area.
+Mentor an Early-Career Writer: Sign up to our mentoring programme and give back to the next generation of medical writers.
+[CTA: &quot;Tell Us How You&apos;d Like to Get Involved â€” Contact Us&quot;]
+10.4 â€” Media &amp; Press
+[ SECTION: Press Enquiries ]
+For media enquiries, press releases, or interview requests related to MedWrite Global Solutions, the medical writing profession, or any of our programmes and initiatives, please contact our Communications team.
+Press Contact: press@medwriteglobal.com
+[Download: Media Pack | Logo &amp; Brand Assets | Key Statistics &amp; Fact Sheet]
+
+APPENDIX: Technical &amp; Design Notes
+
+A. Navigation Structure (Global)
+[ SECTION: Primary Navigation Menu ]
+The global navigation should be visible on all pages in a fixed top bar. The structure is as follows:
+Home
+About Us â†’ Our Story | Mission &amp; Vision | Our Team | Code of Ethics
+Services â†’ Regulatory Writing | Medical Communications | Publications | Medical Education | Consulting
+Membership â†’ Join &amp; Renew | Benefits | FAQs | Awards
+Education â†’ Professional Development Programme | Certification | Workshops | Webinars | eLearning
+Career â†’ Getting Into Medical Writing | Freelance Hub | Job Board | Career Guides | Salary Survey
+Resources â†’ Journal | Guidelines | Useful Reading | Company Directory
+Community &amp; Events â†’ SIGs | Global Chapters | Events Calendar | Annual Conference
+News &amp; Blog
+Contact Us
+Right side of nav bar: [Login / My Account] button [Join Now] CTA button
+B. Brand Tone of Voice
+[ SECTION: Editorial Guidelines ]
+Professional: All copy must be authoritative, well-structured, and grounded in industry knowledge.
+Inclusive: Use welcoming, accessible language that speaks to medical writers at all career stages and from all backgrounds.
+Informative: Prioritise clarity and usefulness. Avoid jargon where plain language communicates equally well.
+Inspiring: Medical writing is an impactful and rewarding profession. Copy should convey that sense of purpose and opportunity.
+Global: Avoid overly regional references. Use international spelling conventions (British English recommended unless market is US-only).
+C. SEO &amp; Keyword Guidance
+[ SECTION: Search Optimisation Notes ]
+Primary Keywords: medical writing, medical writer, regulatory writing, medical communications, clinical writing, pharmaceutical writing, medical writer jobs, medical writing certification, medical writing training, freelance medical writer
+Secondary Keywords: clinical study report, CSR writing, CTD preparation, publications medical writer, ISMPP, ICH guidelines, ICMJE, medical writing association, professional development medical writing
+Each page should have a unique meta title and meta description. H1 tags should reflect primary keyword intent for each page.
+D. Functional Requirements
+[ SECTION: Technical Features ]
+Member Portal: Secure login area with personal training record, membership management, journal archive access, and member-only resource downloads.
+Freelance Directory: Searchable, filterable member-submitted directory with profile creation capability.
+Job Board: Employer and candidate-facing job listing system with search, apply, and employer dashboard features.
+Events Calendar: Integrated events listing with filtering, registration, and calendar sync functionality.
+Webinar Archive: Video hosting or embedding with member-only access gating for on-demand content.
+Journal Archive: PDF hosting with searchable archive and member-only access for back issues.
+News &amp; Blog CMS: Easy-to-use content management system for editorial team to publish and manage blog posts and news articles.
+E-Commerce: Membership subscription and one-off payment processing for non-member course/event purchases.
+GDPR / Data Compliance: Cookie consent management, privacy policy, data request handling, and compliant form data storage.
+
