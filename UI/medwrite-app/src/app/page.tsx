@@ -4,31 +4,31 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Section 1 — Hero Banner */}
-      <section className="relative w-full min-h-[calc(100vh-5rem)] flex items-center py-12 md:py-16 overflow-hidden border-b border-black/10">
+      <section className="relative w-full h-[calc(100vh-5rem)] min-h-[600px] flex items-center overflow-hidden border-b border-black/10">
         <div className="container mx-auto px-4 md:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="flex flex-col gap-6">
-              <span className="text-[var(--accent)] font-semibold uppercase tracking-widest text-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="flex flex-col gap-3 lg:gap-4">
+              <span className="text-[var(--accent)] font-semibold uppercase tracking-widest text-xs md:text-sm">
                 • GLOBAL NETWORK
               </span>
-              <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-tight text-[var(--foreground)] leading-[1.1]">
+              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[var(--foreground)] leading-[1.1]">
                 Advancing Medical Communication.
                 <br /> Globally.
               </h1>
-              <p className="text-lg md:text-xl text-[var(--foreground)]/80 max-w-xl leading-relaxed mt-4">
+              <p className="text-sm md:text-base lg:text-lg text-[var(--foreground)]/80 max-w-xl leading-relaxed mt-1 lg:mt-2">
                 MedWrite Global Solutions is the premier professional hub for medical writers, regulatory communicators, and healthcare content specialists worldwide — connecting expertise, fostering excellence, and shaping the future of medical communication.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 mt-6">
-                <Link href="/join" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+              <div className="flex flex-col sm:flex-row gap-3 lg:gap-4 mt-2 lg:mt-4">
+                <Link href="/join" className="inline-flex h-10 lg:h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-6 lg:px-8 text-sm lg:text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
                   Join MedWrite Today
                 </Link>
-                <Link href="/services" className="inline-flex h-12 items-center justify-center rounded-sm border border-[var(--foreground)] bg-transparent px-8 text-base font-semibold text-[var(--foreground)] shadow-sm transition-colors hover:bg-[var(--foreground)] hover:text-[var(--background)]">
+                <Link href="/services" className="inline-flex h-10 lg:h-12 items-center justify-center rounded-sm border border-[var(--foreground)] bg-transparent px-6 lg:px-8 text-sm lg:text-base font-semibold text-[var(--foreground)] shadow-sm transition-colors hover:bg-[var(--foreground)] hover:text-[var(--background)]">
                   Explore Our Services
                 </Link>
               </div>
             </div>
             {/* Hero Image */}
-            <div className="hidden md:block relative h-[500px] w-full rounded-sm overflow-hidden bg-black/5">
+            <div className="hidden md:block relative h-[400px] lg:h-[500px] w-full rounded-sm overflow-hidden bg-black/5">
               <img src="/images/hero.png" alt="Medical Writer Workspace" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-tr from-[var(--accent)]/20 to-transparent pointer-events-none" />
             </div>
