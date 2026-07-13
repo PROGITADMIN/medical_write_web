@@ -17,7 +17,7 @@ export default function Membership() {
               Join thousands of medical writing professionals worldwide and unlock everything MedWrite Global Solutions has to offer.
             </p>
             <div className="flex justify-center gap-4">
-              <Link href="#pricing" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+              <Link href="#pricing" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-white shadow transition-colors hover:opacity-90">
                 Join Now
               </Link>
             </div>
@@ -36,7 +36,7 @@ export default function Membership() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/40 p-8 rounded-sm border border-black/5">
               <h3 className="font-serif text-2xl font-bold mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-[#1a1a1a] flex items-center justify-center text-sm font-sans">1</span>
+                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-white flex items-center justify-center text-sm font-sans">1</span>
                 Professional Development
               </h3>
               <ul className="space-y-3 text-sm text-[var(--foreground)]/80 pl-11">
@@ -49,7 +49,7 @@ export default function Membership() {
             
             <div className="bg-white/40 p-8 rounded-sm border border-black/5">
               <h3 className="font-serif text-2xl font-bold mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-[#1a1a1a] flex items-center justify-center text-sm font-sans">2</span>
+                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-white flex items-center justify-center text-sm font-sans">2</span>
                 Community & Networking
               </h3>
               <ul className="space-y-3 text-sm text-[var(--foreground)]/80 pl-11">
@@ -62,7 +62,7 @@ export default function Membership() {
 
             <div className="bg-white/40 p-8 rounded-sm border border-black/5">
               <h3 className="font-serif text-2xl font-bold mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-[#1a1a1a] flex items-center justify-center text-sm font-sans">3</span>
+                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-white flex items-center justify-center text-sm font-sans">3</span>
                 Career Support
               </h3>
               <ul className="space-y-3 text-sm text-[var(--foreground)]/80 pl-11">
@@ -75,7 +75,7 @@ export default function Membership() {
 
             <div className="bg-white/40 p-8 rounded-sm border border-black/5">
               <h3 className="font-serif text-2xl font-bold mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-[#1a1a1a] flex items-center justify-center text-sm font-sans">4</span>
+                <span className="w-8 h-8 rounded-full bg-[var(--accent)] text-white flex items-center justify-center text-sm font-sans">4</span>
                 Resources & Publications
               </h3>
               <ul className="space-y-3 text-sm text-[var(--foreground)]/80 pl-11">
@@ -106,7 +106,7 @@ export default function Membership() {
               <Link href="/join/student" className="mt-auto block w-full text-center py-3 rounded-sm border border-white/20 hover:bg-white/10 transition-colors">Select Plan</Link>
             </div>
 
-            <div className="bg-[var(--accent)] text-[#1a1a1a] border border-[var(--accent)] p-8 rounded-sm flex flex-col transform md:-translate-y-4 shadow-xl relative">
+            <div className="bg-[var(--accent)] text-white border border-[var(--accent)] p-8 rounded-sm flex flex-col transform md:-translate-y-4 shadow-xl relative">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#1a1a1a] text-white text-xs font-bold px-3 py-1 uppercase tracking-wider rounded-sm">Most Popular</div>
               <h3 className="font-bold text-xl mb-2">Individual Member</h3>
               <p className="text-sm opacity-80 mb-6 flex-1">Suitable for employed and freelance medical writing professionals.</p>

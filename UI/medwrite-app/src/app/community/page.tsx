@@ -64,7 +64,7 @@ export default function Community() {
                     <span className="text-xs bg-black/5 px-3 py-1.5 rounded-full">Publications & Ethics</span>
                     <span className="text-xs bg-black/5 px-3 py-1.5 rounded-full">Patient Communications</span>
                  </div>
-                 <Link href="/community/sigs" className="inline-block mt-6 text-[var(--accent)] font-semibold text-sm hover:underline text-[#1a1a1a]">
+                 <Link href="/community/sigs" className="inline-block mt-6 text-[var(--accent)] font-semibold text-sm hover:underline">
                   Join a SIG →
                  </Link>
               </div>
@@ -92,7 +92,7 @@ export default function Community() {
                 <li><strong className="text-white">Networking:</strong> Connect with peers, clients, and employers at social events.</li>
                 <li><strong className="text-white">Exhibition:</strong> Meet vendors and service providers supporting the profession.</li>
               </ul>
-              <Link href="/conference" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+              <Link href="/conference" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-white shadow transition-colors hover:opacity-90">
                 Register for Next Conference
               </Link>
             </div>

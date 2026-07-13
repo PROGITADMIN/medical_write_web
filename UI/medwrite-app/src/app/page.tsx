@@ -4,22 +4,22 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Section 1 — Hero Banner */}
-      <section className="relative w-full h-[calc(100vh-5rem)] min-h-[600px] flex items-center overflow-hidden border-b border-black/10">
-        <div className="container mx-auto px-4 md:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <section className="relative w-full h-[calc(100vh-5rem)] flex items-center overflow-hidden border-b border-black/10">
+        <div className="container mx-auto px-4 md:px-6 relative z-10 h-full flex items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
             <div className="flex flex-col gap-3 lg:gap-4">
               <span className="text-[var(--accent)] font-semibold uppercase tracking-widest text-xs md:text-sm">
                 • GLOBAL NETWORK
               </span>
-              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[var(--foreground)] leading-[1.1]">
+              <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[var(--foreground)] leading-[1.1]">
                 Advancing Medical Communication.
                 <br /> Globally.
               </h1>
-              <p className="text-sm md:text-base lg:text-lg text-[var(--foreground)]/80 max-w-xl leading-relaxed mt-1 lg:mt-2">
+              <p className="text-xs md:text-sm lg:text-base text-[var(--foreground)]/80 max-w-xl leading-relaxed mt-1 lg:mt-2">
                 MedWrite Global Solutions is the premier professional hub for medical writers, regulatory communicators, and healthcare content specialists worldwide — connecting expertise, fostering excellence, and shaping the future of medical communication.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 lg:gap-4 mt-2 lg:mt-4">
-                <Link href="/join" className="inline-flex h-10 lg:h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-6 lg:px-8 text-sm lg:text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+                <Link href="/join" className="inline-flex h-10 lg:h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-6 lg:px-8 text-sm lg:text-base font-semibold text-white shadow transition-colors hover:opacity-90">
                   Join MedWrite Today
                 </Link>
                 <Link href="/services" className="inline-flex h-10 lg:h-12 items-center justify-center rounded-sm border border-[var(--foreground)] bg-transparent px-6 lg:px-8 text-sm lg:text-base font-semibold text-[var(--foreground)] shadow-sm transition-colors hover:bg-[var(--foreground)] hover:text-[var(--background)]">
@@ -28,7 +28,7 @@ export default function Home() {
               </div>
             </div>
             {/* Hero Image */}
-            <div className="hidden md:block relative h-[400px] lg:h-[500px] w-full rounded-sm overflow-hidden bg-black/5">
+            <div className="hidden md:block relative h-[40vh] md:h-[50vh] lg:h-[60vh] max-h-[500px] w-full rounded-sm overflow-hidden bg-black/5">
               <img src="/images/hero.png" alt="Medical Writer Workspace" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-tr from-[var(--accent)]/20 to-transparent pointer-events-none" />
             </div>
@@ -51,21 +51,21 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="flex flex-col items-center text-center p-6 bg-white/50 rounded-sm border border-black/5">
-              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center mb-4 text-[#1a1a1a]">
+              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center mb-4 text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
               </div>
               <h3 className="font-serif text-xl font-bold mb-2">Global Reach</h3>
               <p className="text-[var(--foreground)]/70 text-sm leading-relaxed">A network spanning 50+ countries with members from pharmaceutical, biotech, CRO, medcomms, and academic sectors.</p>
             </div>
             <div className="flex flex-col items-center text-center p-6 bg-white/50 rounded-sm border border-black/5">
-              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center mb-4 text-[#1a1a1a]">
+              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center mb-4 text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
               </div>
               <h3 className="font-serif text-xl font-bold mb-2">Professional Development</h3>
               <p className="text-[var(--foreground)]/70 text-sm leading-relaxed">Accredited training programmes, workshops, and certifications designed for every career stage.</p>
             </div>
             <div className="flex flex-col items-center text-center p-6 bg-white/50 rounded-sm border border-black/5">
-              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center mb-4 text-[#1a1a1a]">
+              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center mb-4 text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
               </div>
               <h3 className="font-serif text-xl font-bold mb-2">Thriving Community</h3>
@@ -135,22 +135,24 @@ export default function Home() {
       </section>
 
       {/* Section 4 — What is Medical Writing? (Explainer Strip) */}
-      <section className="py-20 md:py-24 bg-[#1a1a1a] text-white">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">What Is Medical Writing?</h2>
-              <p className="text-white/80 text-lg leading-relaxed mb-6">
+      <section className="relative w-full h-[calc(100vh-5rem)] flex items-center bg-[#1a1a1a] text-white overflow-hidden">
+        <div className="container mx-auto px-4 md:px-6 relative z-10 h-full flex items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
+            <div className="flex flex-col gap-2 md:gap-3">
+              <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl font-bold">What Is Medical Writing?</h2>
+              <p className="text-white/80 text-xs md:text-sm lg:text-base leading-relaxed">
                 Medical writing is a specialist communication discipline that bridges scientific research and its communication to diverse audiences — from regulatory authorities and healthcare professionals to patients and the general public. Medical writers work across a broad spectrum of document types, including clinical study reports, regulatory submissions, journal manuscripts, patient information leaflets, training materials, medical education content, and much more.
               </p>
-              <p className="text-white/80 text-lg leading-relaxed mb-8">
+              <p className="text-white/80 text-xs md:text-sm lg:text-base leading-relaxed">
                 As the global pharmaceutical, biotech, and healthcare sectors continue to grow, the demand for skilled medical writers has never been greater. MedWrite Global Solutions exists to meet that demand — by empowering professionals at every career stage.
               </p>
-              <Link href="/career" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
-                Explore a Career in Medical Writing
-              </Link>
+              <div>
+                <Link href="/career" className="inline-flex h-9 lg:h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-5 lg:px-6 text-xs lg:text-sm font-semibold text-white shadow transition-colors hover:opacity-90">
+                  Explore a Career in Medical Writing
+                </Link>
+              </div>
             </div>
-             <div className="hidden md:block relative h-full min-h-[400px] w-full border border-white/20 rounded-sm overflow-hidden">
+             <div className="hidden md:block relative h-[40vh] md:h-[50vh] lg:h-[60vh] max-h-[500px] w-full border border-white/20 rounded-sm overflow-hidden">
                 <img src="/images/explainer.png" alt="What is Medical Writing" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-black/20 pointer-events-none" />
             </div>

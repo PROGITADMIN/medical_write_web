@@ -1,27 +1,30 @@
 import Link from 'next/link';
+import Timeline from '@/components/Timeline';
 
 export default function About() {
   return (
     <div className="flex flex-col w-full">
       {/* 2.1 — About Us (Parent Page) */}
-      <section className="relative w-full py-20 md:py-32 border-b border-black/10 bg-[var(--background)]">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <span className="text-[var(--accent)] font-semibold uppercase tracking-widest text-sm mb-4 block">
-              • WHO WE ARE
-            </span>
-            <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-tight text-[var(--foreground)] leading-[1.1] mb-6">
-              About MedWrite Global Solutions
+      <section className="relative w-full h-[calc(100vh-5rem)] flex items-end pb-12 md:pb-16 overflow-hidden bg-[#0a0a0a]">
+        <div className="absolute inset-0 z-0">
+          <img src="/images/side-view-doctor-with-stethoscope-working-laptop-writing-paper.jpg" alt="About MedWrite" className="w-full h-full object-cover opacity-60" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+        </div>
+
+        <div className="container mx-auto px-4 md:px-6 relative z-10 w-full flex flex-col md:flex-row justify-between items-end gap-8">
+          <div className="max-w-2xl text-left">
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white leading-[1.1] mb-4 drop-shadow-lg">
+              About MedWrite<br />Global Solutions.
             </h1>
-            <p className="text-xl md:text-2xl font-serif text-[var(--foreground)]/90 italic max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-lg md:text-xl font-serif text-white/90 italic leading-relaxed mb-6 drop-shadow-md">
               Our story, our purpose, and the values that drive everything we do.
             </p>
-            <p className="text-lg text-[var(--foreground)]/80 leading-relaxed max-w-4xl mx-auto">
-              MedWrite Global Solutions was founded with a single, unwavering purpose: to elevate the global standard of medical communication by empowering the professionals who create it. We are a globally oriented organisation dedicated to representing, supporting, educating, and connecting medical writers, regulatory communicators, and healthcare content professionals across every sector of the life sciences and healthcare industry.
-            </p>
-            <p className="text-lg text-[var(--foreground)]/80 leading-relaxed max-w-4xl mx-auto mt-4">
-              From regulatory affairs and clinical development to medical education, patient communication, and scientific journalism, our members span the full breadth of the medical writing profession — across more than 50 countries and growing.
-            </p>
+          </div>
+          
+          <div className="shrink-0 mb-2 md:mb-6">
+            <Link href="/join" className="inline-flex h-10 lg:h-12 items-center justify-center rounded-lg bg-white px-6 lg:px-8 text-sm lg:text-base font-bold text-black shadow-xl transition-transform hover:-translate-y-1">
+              Get started
+            </Link>
           </div>
         </div>
       </section>
@@ -29,8 +32,8 @@ export default function About() {
       {/* 2.2 — Our Story */}
       <section className="py-20 md:py-24 border-b border-black/10">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start max-w-6xl mx-auto">
-            <div>
+          <div className="flex flex-col gap-16 max-w-4xl mx-auto">
+            <div className="text-center">
               <h2 className="font-serif text-4xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-[var(--foreground)]/80 leading-relaxed mb-4">
                 MedWrite Global Solutions grew out of a recognised need within the international medical writing community for a truly global platform — one that could serve professionals not only in established markets but in emerging regions where the profession is rapidly expanding.
@@ -43,40 +46,9 @@ export default function About() {
               </p>
             </div>
             
-            <div className="bg-white/40 p-8 rounded-sm border border-black/5">
-              <h3 className="font-serif text-2xl font-bold mb-6">Key Milestones</h3>
-              <div className="flex flex-col gap-6 relative border-l border-[var(--accent)] ml-3 pl-6">
-                <div className="relative">
-                  <div className="absolute w-3 h-3 bg-[var(--accent)] rounded-full -left-[1.95rem] top-1.5 ring-4 ring-white" />
-                  <p className="font-bold">Year 1</p>
-                  <p className="text-sm text-[var(--foreground)]/70">MedWrite Global Solutions founded. Initial membership drive launched globally.</p>
-                </div>
-                <div className="relative">
-                  <div className="absolute w-3 h-3 bg-[var(--accent)] rounded-full -left-[1.95rem] top-1.5 ring-4 ring-white" />
-                  <p className="font-bold">Year 2</p>
-                  <p className="text-sm text-[var(--foreground)]/70">First Professional Development Programme launched with 30 core workshops.</p>
-                </div>
-                <div className="relative">
-                  <div className="absolute w-3 h-3 bg-[var(--accent)] rounded-full -left-[1.95rem] top-1.5 ring-4 ring-white" />
-                  <p className="font-bold">Year 3</p>
-                  <p className="text-sm text-[var(--foreground)]/70">MedWrite Global Journal published for the first time — quarterly, peer-reviewed.</p>
-                </div>
-                <div className="relative">
-                  <div className="absolute w-3 h-3 bg-[var(--accent)] rounded-full -left-[1.95rem] top-1.5 ring-4 ring-white" />
-                  <p className="font-bold">Year 4</p>
-                  <p className="text-sm text-[var(--foreground)]/70">Annual Global Conference held for the first time, attracting delegates from 20+ countries.</p>
-                </div>
-                <div className="relative">
-                  <div className="absolute w-3 h-3 bg-[var(--accent)] rounded-full -left-[1.95rem] top-1.5 ring-4 ring-white" />
-                  <p className="font-bold">Year 5</p>
-                  <p className="text-sm text-[var(--foreground)]/70">Certification Programme launched — MedWrite Certified Medical Writer (MCMW) credential introduced.</p>
-                </div>
-                <div className="relative">
-                  <div className="absolute w-3 h-3 bg-[var(--accent)] rounded-full -left-[1.95rem] top-1.5 ring-4 ring-white" />
-                  <p className="font-bold">Year 6</p>
-                  <p className="text-sm text-[var(--foreground)]/70">Membership surpasses 5,000. Global Chapters established in Asia-Pacific, Africa, Latin America.</p>
-                </div>
-              </div>
+            <div className="w-full pt-8">
+              <h3 className="font-serif text-3xl md:text-5xl font-bold mb-16 text-center">Key Milestones</h3>
+              <Timeline />
             </div>
           </div>
         </div>
@@ -128,52 +100,131 @@ export default function About() {
         </div>
       </section>
 
-      {/* 2.4 — Our Team & 2.5 — Code of Ethics */}
-      <section className="py-20 md:py-24 border-b border-black/10">
+      {/* 2.4 — Our Team */}
+      <section className="py-20 md:py-24 border-b border-black/10 overflow-hidden">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-6xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-serif text-4xl font-bold mb-6">Our Team</h2>
+            <p className="text-[var(--foreground)]/80 leading-relaxed">
+              MedWrite Global Solutions is governed by a dedicated Executive Committee and is supported by a network of volunteer committees, working groups, and regional representatives who contribute their time and expertise to advance the organisation and its members.
+            </p>
+          </div>
+
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-8">
             
-            {/* Our Team */}
-            <div>
-              <h2 className="font-serif text-4xl font-bold mb-6">Our Team</h2>
-              <p className="text-[var(--foreground)]/80 leading-relaxed mb-6">
-                MedWrite Global Solutions is governed by a dedicated Executive Committee and is supported by a network of volunteer committees, working groups, and regional representatives who contribute their time and expertise to advance the organisation and its members.
-              </p>
-              <h3 className="font-bold text-xl mb-3">Executive Committee & Advisory Board</h3>
-              <p className="text-sm text-[var(--foreground)]/70 mb-6">
-                Led by our President, Vice President, Secretary General, Treasurer, and Directors of Education, Membership, and Communications. Supported by four Regional Directors and a senior Advisory Board spanning pharmaceutical, regulatory, academic, and medcomms sectors.
-              </p>
-              <h3 className="font-bold text-xl mb-3">Committees</h3>
-              <ul className="list-disc pl-5 text-sm text-[var(--foreground)]/70 space-y-2">
-                <li><strong>Education Committee:</strong> Oversees the Professional Development Programme, Certification, Workshops, and Webinars.</li>
-                <li><strong>Membership Committee:</strong> Manages membership recruitment, retention, and benefits.</li>
-                <li><strong>Publications Committee:</strong> Oversees the MedWrite Global Journal and member publications.</li>
-                <li><strong>Ethics Committee:</strong> Develops and enforces the Code of Ethics and professional conduct guidelines.</li>
-                <li><strong>Events Committee:</strong> Plans and executes the Annual Conference and regional events.</li>
-                <li><strong>Career Development Committee:</strong> Manages the Getting Into Medical Writing programme, Job Board, and Freelance Hub.</li>
-              </ul>
+            {/* Left Column */}
+            <div className="flex flex-col gap-10 lg:w-1/3">
+              {[
+                { title: "Executive & Advisory", desc: "Led by our President and Directors, supported by Regional Directors and a senior Advisory Board.", icon: <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /> },
+                { title: "Education Committee", desc: "Oversees the Professional Development Programme, Certification, Workshops, and Webinars.", icon: <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /> },
+                { title: "Membership Committee", desc: "Manages membership recruitment, retention, and benefits.", icon: <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /> },
+              ].map((item, idx) => (
+                <div key={idx} className="flex gap-4 items-start">
+                  <div className="shrink-0 mt-1 w-10 h-10 rounded-full bg-[var(--accent)]/10 flex items-center justify-center text-[var(--accent)]">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      {item.icon}
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg mb-1 text-[var(--foreground)]">{item.title}</h4>
+                    <p className="text-[var(--foreground)]/70 text-sm leading-relaxed">
+                      {item.desc}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
 
-            {/* Code of Ethics */}
-            <div className="bg-white/40 p-8 rounded-sm border border-black/5">
-              <h2 className="font-serif text-3xl font-bold mb-6">Code of Ethics</h2>
+            {/* Center Image */}
+            <div className="lg:w-1/3 flex justify-center relative py-6">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl relative z-10 border-8 border-[var(--background)]">
+                <img src="/images/membership.png" alt="Our Team" className="w-full h-full object-cover" />
+              </div>
+              {/* Optional decorative background blob behind image */}
+              <div className="absolute inset-0 bg-[var(--accent)]/5 rounded-full scale-110 -z-0"></div>
+            </div>
+
+            {/* Right Column */}
+            <div className="flex flex-col gap-10 lg:w-1/3">
+              {[
+                { title: "Publications Committee", desc: "Oversees the MedWrite Global Journal and member publications.", icon: <path strokeLinecap="round" strokeLinejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" /> },
+                { title: "Ethics Committee", desc: "Develops and enforces the Code of Ethics and professional conduct guidelines.", icon: <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" /> },
+                { title: "Career Development", desc: "Manages the Getting Into Medical Writing programme, Job Board, and Freelance Hub.", icon: <path strokeLinecap="round" strokeLinejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /> },
+              ].map((item, idx) => (
+                <div key={idx} className="flex gap-4 items-start">
+                  <div className="shrink-0 mt-1 w-10 h-10 rounded-full bg-[var(--accent)]/10 flex items-center justify-center text-[var(--accent)]">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      {item.icon}
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg mb-1 text-[var(--foreground)]">{item.title}</h4>
+                    <p className="text-[var(--foreground)]/70 text-sm leading-relaxed">
+                      {item.desc}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* 2.5 — Code of Ethics */}
+      <section className="py-20 md:py-24 bg-[var(--background)]">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-12 items-center">
+            
+            {/* Left Column: Text & List */}
+            <div>
+              <h2 className="font-serif text-3xl font-bold mb-5">Code of Ethics</h2>
               <p className="text-sm text-[var(--foreground)]/80 leading-relaxed mb-6">
                 Medical writing carries significant responsibility. The documents and communications created by medical writers directly influence healthcare decisions, regulatory approvals, patient safety, and scientific understanding. At MedWrite Global Solutions, we hold all members to a rigorous Code of Ethics that reflects the highest standards of the profession.
               </p>
-              <h3 className="font-bold text-lg mb-3">Core Ethical Principles</h3>
-              <ul className="space-y-3 text-sm mb-8">
-                <li><strong>Accuracy:</strong> All medical communications must be based on accurate, complete, and scientifically sound information.</li>
-                <li><strong>Transparency:</strong> Authors&apos; and medical writers&apos; contributions must be clearly disclosed. Ghost-writing without acknowledgement is not condoned.</li>
-                <li><strong>Independence:</strong> Medical writers must maintain scientific objectivity and independence from undue commercial influence.</li>
-                <li><strong>Confidentiality:</strong> Members must protect the confidentiality of client data, patient information, and proprietary information at all times.</li>
-                <li><strong>Accountability:</strong> Members are accountable for the quality and integrity of their work and must comply with applicable laws, regulations, and guidelines.</li>
-                <li><strong>Continuous Learning:</strong> Members are committed to ongoing professional development to ensure their knowledge and skills remain current.</li>
-              </ul>
-              <Link href="#" className="inline-flex h-10 items-center justify-center rounded-sm border border-[var(--foreground)] bg-transparent px-6 text-sm font-semibold text-[var(--foreground)] shadow-sm transition-colors hover:bg-[var(--foreground)] hover:text-[var(--background)]">
-                Download Full Code of Ethics PDF
-              </Link>
+              
+              <h3 className="font-bold text-base mb-4">Core Ethical Principles</h3>
+              <div className="flex flex-col gap-3">
+                {[
+                  { title: "Accuracy", desc: "All medical communications must be based on accurate, complete, and scientifically sound information." },
+                  { title: "Transparency", desc: "Authors' and medical writers' contributions must be clearly disclosed. Ghost-writing without acknowledgement is not condoned." },
+                  { title: "Independence", desc: "Medical writers must maintain scientific objectivity and independence from undue commercial influence." },
+                  { title: "Confidentiality", desc: "Members must protect the confidentiality of client data, patient information, and proprietary information at all times." },
+                  { title: "Accountability", desc: "Members are accountable for the quality and integrity of their work and must comply with applicable laws, regulations, and guidelines." },
+                  { title: "Continuous Learning", desc: "Members are committed to ongoing professional development to ensure their knowledge and skills remain current." },
+                ].map((item, idx) => (
+                  <div key={idx} className="flex gap-3 items-start">
+                    <div className="shrink-0 mt-0.5 w-5 h-5 rounded-full bg-[var(--accent)]/15 flex items-center justify-center text-[var(--accent)]">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <p className="text-sm text-[var(--foreground)]/80 leading-snug">
+                      <strong className="text-[var(--foreground)]">{item.title}:</strong> {item.desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
-            
+
+            {/* Right Column: Image Gallery */}
+            <div className="flex gap-4 w-full h-[350px] lg:h-[450px]">
+              <div className="w-2/3 h-full rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="/images/side-view-doctor-with-stethoscope-working-laptop-writing-paper.jpg" 
+                  alt="Doctor working on laptop" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-1/3 h-full rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="/images/hand-holding-pen-close-up.jpg" 
+                  alt="Writing with pen" 
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

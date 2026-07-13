@@ -30,7 +30,7 @@ export default function Join() {
               We are currently updating our membership portal. Please check back later to register, or contact our support team if you have any questions.
             </p>
             <div className="flex justify-center">
-              <Link href="/" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+              <Link href="/" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-white shadow transition-colors hover:opacity-90">
                 Return to Home
               </Link>
             </div>

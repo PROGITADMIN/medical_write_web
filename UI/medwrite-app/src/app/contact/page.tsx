@@ -59,7 +59,7 @@ export default function Contact() {
                   <textarea id="message" rows={5} className="p-4 rounded-sm border border-black/20 bg-white/50 focus:outline-none focus:ring-2 focus:ring-[var(--accent)] resize-y" required></textarea>
                 </div>
                 
-                <button type="submit" className="h-12 inline-flex items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90 mt-2">
+                <button type="submit" className="h-12 inline-flex items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-white shadow transition-colors hover:opacity-90 mt-2">
                   Send Message
                 </button>
               </form>

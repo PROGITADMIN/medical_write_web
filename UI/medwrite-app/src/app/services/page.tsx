@@ -152,7 +152,7 @@ export default function Services() {
                   <li><strong className="text-white block mb-1">Quality Review & Editorial Services:</strong> Expert editorial review, fact-checking, and quality assurance for medical communications.</li>
                 </ul>
                 <div className="mt-8">
-                  <Link href="/contact" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-[#1a1a1a] transition-colors hover:opacity-90">
+                  <Link href="/contact" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:opacity-90">
                     Enquire About Consulting
                   </Link>
                 </div>

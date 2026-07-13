@@ -45,7 +45,7 @@ export default function Education() {
               </ul>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/education/pdp-brochure" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+                <Link href="/education/pdp-brochure" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-white shadow transition-colors hover:opacity-90">
                   Download PDP Brochure
                 </Link>
                 <Link href="/education/workshops" className="inline-flex h-12 items-center justify-center rounded-sm border border-[var(--foreground)] bg-transparent px-8 text-base font-semibold text-[var(--foreground)] shadow-sm transition-colors hover:bg-[var(--foreground)] hover:text-[var(--background)]">
@@ -137,7 +137,7 @@ export default function Education() {
               To apply for certification, members must: hold an active MedWrite Global Solutions membership; have completed the required PDP credits within the specified timeframe; submit a completed application form along with supporting evidence.
             </p>
             <div className="flex justify-center gap-4">
-              <Link href="/certification/requirements" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+              <Link href="/certification/requirements" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-white shadow transition-colors hover:opacity-90">
                 View Requirements
               </Link>
               <Link href="/certification/apply" className="inline-flex h-10 items-center justify-center rounded-sm border border-white/20 bg-transparent px-6 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-white/10">

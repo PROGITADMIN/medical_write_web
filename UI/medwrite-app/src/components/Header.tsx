@@ -22,7 +22,7 @@ export default function Header() {
           <Link href="/login" className="hidden md:inline-flex text-sm font-medium hover:underline text-[var(--foreground)]">
             Login
           </Link>
-          <Link href="/join" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-[#1a1a1a] transition-colors hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+          <Link href="/join" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
             Join Now
           </Link>
         </div>

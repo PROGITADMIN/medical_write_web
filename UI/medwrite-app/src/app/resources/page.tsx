@@ -43,7 +43,7 @@ export default function Resources() {
               </ul>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/resources/journal" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+                <Link href="/resources/journal" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-white shadow transition-colors hover:opacity-90">
                   Read Current Issue
                 </Link>
                 <Link href="/resources/journal/submit" className="inline-flex h-12 items-center justify-center rounded-sm border border-[var(--foreground)] bg-transparent px-8 text-base font-semibold text-[var(--foreground)] shadow-sm transition-colors hover:bg-[var(--foreground)] hover:text-[var(--background)]">

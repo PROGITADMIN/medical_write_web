@@ -49,7 +49,7 @@ export default function Career() {
               </ul>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/career/guide" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-[#1a1a1a] shadow transition-colors hover:opacity-90">
+                <Link href="/career/guide" className="inline-flex h-12 items-center justify-center rounded-sm bg-[var(--accent)] px-8 text-base font-semibold text-white shadow transition-colors hover:opacity-90">
                   Download Career Guide
                 </Link>
               </div>
@@ -115,7 +115,7 @@ export default function Career() {
                 Job seekers can search by role type, specialism, location, experience level, and sector. All listings are reviewed to ensure relevance and quality.
               </p>
               <div className="flex gap-4">
-                 <Link href="/jobs" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-[#1a1a1a] transition-colors hover:opacity-90">
+                 <Link href="/jobs" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:opacity-90">
                   Browse & Apply
                 </Link>
                  <Link href="/jobs/post" className="inline-flex h-10 items-center justify-center rounded-sm border border-[var(--foreground)] bg-transparent px-6 text-sm font-semibold text-[var(--foreground)] transition-colors hover:bg-[var(--foreground)] hover:text-[var(--background)]">
@@ -153,7 +153,7 @@ export default function Career() {
                 Members receive full access to the survey results, enabling them to benchmark their own remuneration, negotiate with confidence, and stay informed about market trends.
               </p>
               <div className="flex gap-4 mt-auto">
-                 <Link href="/salary-survey" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-[#1a1a1a] transition-colors hover:opacity-90">
+                 <Link href="/salary-survey" className="inline-flex h-10 items-center justify-center rounded-sm bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:opacity-90">
                   Access Latest Survey
                 </Link>
               </div>
